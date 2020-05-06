@@ -1,0 +1,65 @@
+﻿<resources>
+    <string name="app_name">Foodeze Rider</string>
+    <string name="login">Login</string>
+    <string name="change_password">Change Password</string>
+
+
+    <string name="google_api_realsekey">google_map_key_for_release_key</string>
+    <string name="google_api_debug">google_map_key_for_debug_key</string>
+
+
+    <string name="key_for_places">google_payed_api_key_for_search_places_and_drawroute</string>
+
+
+    <string name="default_notification_channel_id">channel-01</string>
+
+
+    <string name="continue_txt">continue</string>
+    <string name="welcome_txt">Welcome! Where should we deliver to?</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="recover_pass">Recover Password</string>
+    <string name="recover">Recover</string>
+    <string name="pending_jobs">PENDING JOBS</string>
+    <string name="current_jobs">CURRENT JOBS</string>
+    <string name="job">Jobs</string>
+    <string name="profile">Profile</string>
+    <string name="today_job">Today\'s Jobs</string>
+    <string name="change_pass">Change Password</string>
+    <string name="log_out">Logout</string>
+    <string name="rider">Rider</string>
+
+
+    <string name="email_hint"><font size="14">Jhon@gmail.com</font></string>
+    <string name="password_hint"><font size="14">At least 6 character</font></string>
+    <string name="location">Location</string>
+
+
+    <string name="text_switch_heading">Switch the Check-in button to start your shift</string>
+    <string name="text_switch_btn">Our staff will see that you are checked-in or online which will help them assign you orders and help you to earn more
+    </string>
+
+    <string name="text_switch_mobile">You will remain checked-in until you check-out by switching below button</string>
+
+
+    <string name="review">Review</string>
+
+
+    <string-array name="title">
+        <item>Ms</item>
+        <item >Mr</item>
+        <item>Mrs</item>
+    </string-array>
+
+
+    <string-array name="vehical">
+        <item>MotorCycle</item>
+        <item>MotorCar</item>
+    </string-array>
+
+    <string-array name="license_spring">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+</resources>

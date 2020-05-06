@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_main_div"
+    android:background="@color/colorBG"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.foodeze.rider.ActivitiesAndFragments.Activities.LoginAcitvity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="55dp"
+            android:clickable="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textSize="15sp"
+                android:id="@+id/login_title"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorWhite"
+                android:gravity="center_horizontal|center_vertical" />
+
+
+        </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBG">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorEditTextBG"
+                    android:layout_alignParentBottom="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:background="@color/colorWhite"
+                android:text="Email"
+                android:paddingLeft="14dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorEditTextBG"
+                android:layout_below="@+id/ed_password"
+                />
+
+
+
+            <EditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:inputType="textWebEmailAddress"
+                android:imeOptions="actionNext"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/tv_email"
+                android:background="@color/colorWhite"
+                android:hint="@string/email_hint"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tv_password"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_below="@+id/tv_email"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:background="@color/colorWhite"
+                android:text="Password"
+                android:paddingLeft="14dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/ed_password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/ed_email"
+                android:layout_marginTop="1dp"
+                android:textSize="14sp"
+                android:inputType="textWebPassword"
+                android:imeOptions="actionDone"
+                android:layout_toRightOf="@+id/tv_password"
+                android:background="@color/colorWhite"
+                android:hint="@string/password_hint"
+                android:paddingLeft="10dp" />
+
+
+
+            <TextView
+                android:id="@+id/tv_forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ed_password"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:gravity="right"
+                android:textSize="13sp"
+                android:text="Forgot Your Password?"
+                android:textColor="@color/colorRed" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tv_forget_password"
+                android:layout_weight="50">
+
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tv_forget_password"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_shape_btn_login"
+                android:text="@string/login"
+                android:textColor="@color/colorWhite"
+                android:textStyle="normal"
+                android:fontFamily="@font/verdana"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/or_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_login"
+                    android:text="---------oR---------"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="80dp"
+                    android:textStyle="bold"
+
+                    android:textSize="14dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/sign_up"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/or_text"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/round_shape_btn_login"
+                    android:fontFamily="@font/verdana"
+                    android:text="Sign Up"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/transparent_layer"
+        android:visibility="gone"
+        android:background="@color/transparent_tint">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/progressDialog"
+        android:visibility="gone"
+        android:background="@drawable/round_shape_dialog_white"
+        >
+        <com.gmail.samehadar.iosdialog.CamomileSpinner
+            android:id="@+id/logInProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:spinnerColor="@color/colorRed"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

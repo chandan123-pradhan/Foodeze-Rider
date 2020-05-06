@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FoodezeRider-master.iml" filepath="$PROJECT_DIR$/FoodezeRider-master.iml" group="FoodezeRider-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/FoodezeRider-master-app.iml" filepath="$PROJECT_DIR$/app/FoodezeRider-master-app.iml" group="FoodezeRider-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/library/FoodezeRider-master-library.iml" filepath="$PROJECT_DIR$/library/FoodezeRider-master-library.iml" group="FoodezeRider-master/library" />
+      <module fileurl="file://$PROJECT_DIR$/FoodiesRider1.0.iml" filepath="$PROJECT_DIR$/FoodiesRider1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>
